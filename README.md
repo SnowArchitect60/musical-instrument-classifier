@@ -6,12 +6,12 @@ This project demonstrates the use of deep learning to classify musical instrumen
 
 ### ✅ Features
 - Recognizes 47 musical instruments across 6 categories:
-      🎻 Stringed instruments: e.g., acoustic guitar, violin, cello, harp
-      🎹 Keyboard instruments: e.g., piano, organ, synthesizer
-      🎺 Brass instruments: e.g., trumpet, tuba, french horn
-      🎷 Woodwind instruments: e.g., flute, clarinet, saxophone
-      🥁 Percussion instruments: e.g., drum set, cymbals, marimba
-      🎛️ Miscellaneous: microphone, theremin, DJ controller, etc.
+      -🎻 Stringed instruments: e.g., acoustic guitar, violin, cello, harp
+      -🎹 Keyboard instruments: e.g., piano, organ, synthesizer
+      -🎺 Brass instruments: e.g., trumpet, tuba, french horn
+      -🎷 Woodwind instruments: e.g., flute, clarinet, saxophone
+      -🥁 Percussion instruments: e.g., drum set, cymbals, marimba
+      -🎛️ Miscellaneous: microphone, theremin, DJ controller, etc.
 - Trained with ResNet18 and fine-tuned over 10 epochs
 - Interactive prediction interface via image upload in Colab
 - Includes top-3 prediction chart and natural language output
