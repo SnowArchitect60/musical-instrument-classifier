@@ -7,11 +7,11 @@ This project demonstrates the use of deep learning to classify musical instrumen
 ### ✅ Features
 - Recognizes 54 musical instruments across 6 categories (stringed, keyboard, brass, woodwind, percussion, and miscellaneous instruments).
 - Data collected using DuckDuckGo Search API.
-- Trained with ResNet152 and fine-tuned over 10 epochs of augmented data.
+- Trained with `resnet152` and fine-tuned over 10 epochs of augmented data.
 - Interactive prediction interface via image upload in Colab.
 - Includes top-3 prediction chart and natural language output.
 
-### 📊 Model Performance
+### 📊 Current Model Performance
 ------------------------------
 | Metric          | Value    |
 | --------------- | -------- |
@@ -24,8 +24,8 @@ This project demonstrates the use of deep learning to classify musical instrumen
 
 ### 📁 Files
 - `musical_instrument_classifier.ipynb` – Google Colab notebook.
-- `musical_instrument_classifier_resnet18.pkl` – Trained model (alpha version).
-- ❌ `musical_instrument_classifier_resnet152.pkl` – Trained model (v1, not provided due to GitHub file size limitations. Available upon request.)
+- `musical_instrument_classifier_resnet18.pkl` – Trained model (v0.5.a).
+- ❌ `musical_instrument_classifier_resnet152.pkl` – Trained model (v1.0.a, not provided due to GitHub file size limitations. Available upon request.)
 - `confusion_matrix_resnet18.png` – Class performance visualization of the model pre-trained with resnet18.
 - `confusion_matrix_resnet152_v1.png` – Class performance visualization of the model pre-trained with resnet152.
 - `top_losses_resnet152.png` – Top losses list of the model pre-trained with resnet152.
@@ -46,8 +46,13 @@ This project demonstrates the use of deep learning to classify musical instrumen
 - The accuracy and generalization performance of the model suffer due to the intrinsic disadvantage of having a general dataset.
 
 ### 📌 Future Improvements
-- Provide a more tailored dataset for each instrument listed by including queries focusing on the specific qualities of each instrument.
-- Add more instrument types, non-standard angles, and backgrounds.
+- Provide a more tailored dataset for each instrument listed by including queries focusing on the specific qualities of each instrument. (v1.0.b)
+- Add more instrument types, non-standard angles, and backgrounds. (v1.5.b)
+- Include Gradio or HuggingFace for the model's UI application. (v1.0)
+
+### 📈 Update Log
+- MIC model trained using `resnet152` (v1.0.a). Data cleaning and augmentation performed.
+- MIC model trained using `resnet18` (v0.5.a). No data cleaning and augmentation
 
 ### 📄 License
 This project is licensed under the MIT License.
