@@ -11,7 +11,7 @@ This project demonstrates the use of deep learning to classify musical instrumen
 - Interactive prediction interface via image upload in Colab.
 - Includes top-3 prediction chart and natural language output.
 
-### 📊 Current Model Performance
+### 📊 Current Model Performance (v1.0.a)
 ------------------------------
 | Metric          | Value    |
 | --------------- | -------- |
@@ -46,8 +46,8 @@ This project demonstrates the use of deep learning to classify musical instrumen
 - The accuracy and generalization performance of the model suffer due to the intrinsic disadvantage of having a general dataset.
 
 ### 📌 Future Improvements
-- Provide a more tailored dataset for each instrument listed by including queries focusing on the specific qualities of each instrument. (v1.0.b)
-- Add more instrument types, non-standard angles, and backgrounds. (v1.5.b)
+- Provide a more tailored dataset for each instrument listed by including queries focusing on the specific qualities of each instrument. (v0.5.b)
+- Add more instrument types, non-standard angles, and backgrounds. (v1.0.b)
 - Include Gradio or HuggingFace for the model's UI application. (v1.0)
 
 ### 📈 Update Log
