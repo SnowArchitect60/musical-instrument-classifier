@@ -52,7 +52,7 @@ This project demonstrates the use of deep learning to classify musical instrumen
 
 ### 📈 Update Log
 - MIC model trained using `resnet152` (v1.0.a). Data cleaning and augmentation performed.
-- MIC model trained using `resnet18` (v0.5.a). No data cleaning and augmentation
+- MIC model trained using `resnet18` (v0.5.a). No data cleaning and augmentation.
 
 ### 📄 License
-This project is licensed under the MIT License.
+- This project is licensed under the MIT License.
