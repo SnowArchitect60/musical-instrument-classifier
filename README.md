@@ -6,7 +6,7 @@ This project demonstrates the use of deep learning to classify musical instrumen
 
 ### ✅ Features
 - Recognizes 54 musical instruments across 6 categories (stringed, keyboard, brass, woodwind, percussion, and miscellaneous instruments).
-- Data collected using DuckDuckGo Search API.
+- Data collected (~1000 images per instrument) using DuckDuckGo Search API.
 - Trained with `resnet152` and fine-tuned over 10 epochs of augmented data.
 - Interactive prediction interface via image upload in Colab.
 - Includes top-3 prediction chart and natural language output.
@@ -46,7 +46,7 @@ This project demonstrates the use of deep learning to classify musical instrumen
 - The accuracy and generalization performance of the model suffer due to the intrinsic disadvantage of having a general dataset.
 
 ### 📌 Future Improvements
-- Provide a more tailored dataset for each instrument listed by including queries focusing on the specific qualities of each instrument. (v0.5.b)
+- Expand the training dataset strategically by providing special queries highlighting the qualities specific to each instrument. (v0.5.b)
 - Add more instrument types, non-standard angles, and backgrounds. (v1.0.b)
 - Include Gradio or HuggingFace for the model's UI application. (v1.0)
 
