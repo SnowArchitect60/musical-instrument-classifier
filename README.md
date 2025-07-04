@@ -51,8 +51,8 @@ This project demonstrates the use of deep learning to classify musical instrumen
 - Include Gradio or HuggingFace for the model's UI application. (v1.0)
 
 ### 📈 Update Log
-- MIC model trained using `resnet152` (v1.0.a). Data cleaning and augmentation were performed using approximately 1000 training data points per instrument.
-- MIC model trained using `resnet18` (v0.5.a). No data cleaning and augmentation with imbalanced and limited (~300-400) training data points per instrument.
+- MIC model (v1.0.a) trained using `resnet152`. Data cleaning and augmentation were performed using approximately 1000 training data points per instrument.
+- MIC model (v0.5.a) trained using `resnet18`. No data cleaning and augmentation with imbalanced and limited (~300-400) training data points per instrument.
 
 ### 📄 License
 - This project is licensed under the MIT License.
