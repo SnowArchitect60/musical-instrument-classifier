@@ -2,7 +2,7 @@
 This is a computer vision + machine learning project trained using the FastAI `resnet152` CNN model to classify 54 musical instruments based on images.
 
 ### 📌 Project Summary
-This project demonstrates the use of deep learning to classify musical instruments from images. Despite class imbalance and visual similarity between instruments, the model achieved strong accuracy with minimal confusion.
+This project demonstrates the use of deep learning to classify a wide range of musical instruments from images with strong and scalable accuracy.
 
 ### ✅ Features
 - Recognizes 54 musical instruments across 6 categories (stringed, keyboard, brass, woodwind, percussion, and miscellaneous instruments).
