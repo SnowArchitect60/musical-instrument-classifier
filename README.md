@@ -26,9 +26,9 @@ This project demonstrates the use of deep learning to classify musical instrumen
 - `musical_instrument_classifier.ipynb` – Google Colab notebook.
 - `musical_instrument_classifier_resnet18.pkl` – Trained model (v0.5.a).
 - `musical_instrument_classifier_resnet152.pkl` – Trained model (v1.0.a).
-- `confusion_matrix_resnet18.png` – Class performance visualization of the model pre-trained with resnet18.
-- `confusion_matrix_resnet152_v1.png` – Class performance visualization of the model pre-trained with resnet152.
-- `top_losses_resnet152.png` – Top losses list of the model pre-trained with resnet152.
+- `confusion_matrix_resnet18.png` – Class performance visualization of the model pre-trained with `resnet18`.
+- `confusion_matrix_resnet152_v1.png` – Class performance visualization of the model pre-trained with `resnet152`.
+- `top_losses_resnet152.png` – Top losses list of the model pre-trained with `resnet152`.
 
 ### 🔧 Tools
 - Python
